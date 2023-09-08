@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+}
+
+:root {
+
+}
+
+.landpage {
+    background-color: #d47222ee; 
+    color: white;
+    height: 540px;
+}   
+
+.start_menu {
+    font-size: 20px;
+    display: flex;
+    justify-content:;
+    padding: 0 10%;
+    align-items: baseline;
+
+}
+
+
+.header_link_parent {
+    display: flex;
+   
+}
+#hl1, #hl2, #hl3 {
+    /*margin: 10px 0px 0px 10px;*/
+    font-family: "Poppins";
+    font-weight: 200;
+    border: var(--border);
+    margin-left: 35px;   /* why does this only work with px instead of % */
+}
+
+#header-logo {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px 28% 0 11%;
+
+    border: var(--border);
+}
+
+/* THE MAIN SECTION /////////////////////////////////////////////////////////*/
+
+.welcome_msg {
+    padding: 7%;
+    border: var(--border);
+}
+
+
+.parent_welcome {
+    margin-left: 13.5%;;
+    display: flex;
+    width: 76%;
+}
+
+.parent_header {
+}
+
+#header_wm1 {
+    margin: 0 0 1% 0;
+    border: var(--border);
+    font-size: 45px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+#para_wm1 {
+    line-height: 110%;
+    margin: 1% 0% 1% 0%;
+    font-size: 120%;
+    border: var(--border);
+    font-family: Rubik;
+    font-weight: 300;
+}
+
+#signup {
+    font-size: 113%;
+    font-family: Rubik;
+    font-weight: 300;
+    margin: 2% 0 0 0;
+    padding: 1.3% 4% ;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 10.4%;
+}
+
+#welcome_msg2 {
+    border: solid;
+    padding: 100px 270px;
+    margin: 0 50px 0 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#info {
+    display: flex;
+    font-family: Rubik;
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 1.80%;
+    justify-content: center;
+}
+
+#Box {
+    border: solid rgba(0, 0, 0, 0.74);
+    padding: 80px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin: 0 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.box1 {
+    width: 210px;
+}
+
+#Infobox {
+    font-family: Rubik;
+    margin: 3% 0 0 10%;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+.infoboxes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-testimonial {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background: rgba(241, 157, 88, 0.829);
+    height: 450px;
+    margin-top: 2.5%;
+}
+
+#quote {
+    margin: 100px 270px 0 270px;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+#person {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0 0 200px 1000px; 
+}
+
+.calltoaction {
+    color: rgb(255, 255, 255);
+    display: flex;
+    background:rgba(0, 0, 0, 0.89);
+    margin: 80px 500px 0;
+    border-radius: 10px;
+    padding: 5px 0 
+}
+
+#action {
+    font-family: Rubik;
+    font-weight: 500;
+    margin: 45px 0 0 100px;
+    font-size: 28px;
+}
+
+#sentance {
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: Rubik;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#sign {
+    border-radius: 10px;
+    background: rgba(117, 111, 111, 0.616);   
+    padding: 13px 25px 13px 25px;
+    margin: 50px 10px 50px 200px;
+    font-family: Rubik;
+    font-weight: 300;
+}
+
+.bottomtext {
+    margin-top: 100px;
+    background: rgba(117, 111, 111, 0.616);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#copyrightinfo {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/*.parent-div {
+    border: px;
+    border-style: dashed;
+    border-radius: 10px; 
+    border-color: cyan;
+    
+    background-color:rgb(225, 222, 222);
+    color: rgb(70, 70, 12);
+
+    /*padding: 10px; inside border
+    margin: 30px; outside the border
+    padding-top:
+    padding-bottom:
+    padding-left:
+    padding-right:
+             TOP L@R BOTTOM
+    padding: 40px 0 10px
+             T@B  R@L                   
+    padding: 40px 50px
+             TOP  RIGHT LEFT BOTTOM
+    padding: 10px 20px 30px 50px
+    
+    EXACT SAME FOR MARGIN!
+
+    font-family: sans-serif, serif;
+    font-family: "Poppins", "Times New Roman",  "Courier New";*/
+
+    /*display: inline-block;
+    display: block;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 300px;
+
+
+} 
+
+.child-div2, .child-div1, .child-div3 {
+    border-radius: 10px;
+    border: solid;
+    width: 140px;
+    height: 100px;
+    background-color: white;
+}
+
+.child-div1 { 
+    display: flex;
+    align-items: center;
+}*/
+
