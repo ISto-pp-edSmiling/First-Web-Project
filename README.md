@@ -1,1 +1,1 @@
-# stincy
+# Website Template Test
