@@ -18,8 +18,8 @@
 
 #gradient {
     width: 100%;
-    height: 5px;
-    background-image: linear-gradient(#000000ee, white);
+    height: 7px;
+    background-image: linear-gradient(rgba(255, 136, 0, 0.933) white);
 }
 
 .start_menu {
@@ -84,23 +84,17 @@
 }
 
 #signup {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     font-size: 113%;
     font-family: Rubik;
     font-weight: 300;
     margin: 3% 0 0 0;
-    padding: 1.4% 5% ;
+    padding: 1.4% 2% ;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.719);
     width: 10.4%;
-}
-
-#welcome_msg2 {
-    background-image: url(./1000_F_213603553_bBgpKjWLXP9BYSrUUIIxF7oJdUnNZRI1.jpg);
-    border: solid 2px rgb(27, 25, 25);
-    padding: 100px 270px;
-    margin: 0 50px 0 25px;
-    
 }
 
 #info {
@@ -149,7 +143,7 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    background: rgba(255, 115, 0, 0.829);
+    background: rgba(255, 150, 64, 0.933);
     height: 450px;
     margin-top: 2.5%;
 }
